@@ -14,6 +14,6 @@ done
 
 rm -f assignment2.zip
 zip -q -r assignment2.zip . -x \
-    "*.git" "*deeplearning/datasets*" "*.ipynb_checkpoints*" "*README.md" \
+    "*.git*" "*deeplearning/datasets*" "*.ipynb_checkpoints*" "*README.md" \
     "*collect_submission.sh" "*requirements*.txt" ".env/*" "*.pyc" \
     "*deeplearning/build/*" "*.pt" "*.npz"
